@@ -115,7 +115,7 @@
                                               <input type="submit" value="Search">
                                               </form>
                                             
-                                        </div>
+					    </div>
                                          <div role="tabpanel" class="tab-pane" id="room">
                                              
                                              <form action="#.php">
