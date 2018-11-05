@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <style type="text/css">
+        input.hidden {
+            position: absolute;
+            left: -9999px;
+        }
+
+        #profile-image1 {
+            cursor: pointer;
+            width: 100px;
+            height: 100px;
+            border: 2px solid #03b1ce;
+        }
+
+        .tital {
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .bot-border {
+            border-bottom: 1px #f8f8f8 solid;
+            margin: 5px 0 5px 0
+        }	
+
+    </style>
+</head>
+
+<body>
+    
+    <div class="col-md-9">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4>User Profile</h4>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 ">
+                        <div class="list-group ">
+                            <a href="#" class="list-group-item list-group-item-action">User Profile</a>
+                            <a href="#" class="list-group-item list-group-item-action active">Profile</a>
+                            <a href="#" class="list-group-item list-group-item-action">Reviews</a>
+                            <a href="#" class="list-group-item list-group-item-action">Help</a>
+
+
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-7 ">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">  <h4>User Profile</h4></div>
+                            <div class="panel-body">
+
+                                <div class="box box-info">
+
+                                    <div class="box-body">
+
+
+                                        <div class="col-md-9">
+                                            <div align="center">
+                                                <img alt="User Pic" src="H:\Year 3\Team Project\Learning BootStrap/43452522620_11316ef490_o.jpg" id="profile-image1" class="img-circle img-responsive">
+
+                                                <input id="profile-image-upload" class="hidden" type="file">
+                                                <div style="color:#999;"></div>
+                                                <!--Upload Image Js And Css-->
+
+
+                                            </div>
+
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-sm-5">
+                                                        <!--left col-->
+                                                        <ul class="list-group">
+                                                            <li class="list-group-item text-muted" contenteditable="false">Profile</li>
+                                                            <li class="list-group-item text-right"><span class="pull-left"><strong class="">Date Joined</strong></span> 2.13.2014</li>
+                                                            <li class="list-group-item text-right"><span class="pull-left"><strong class="">Last seen</strong></span> Yesterday</li>
+                                                            <li class="list-group-item text-right">
+                                                                <span class="pull-left"><strong class="">Name</strong></span> Joseph
+                                                                Doe
+                                                            </li>
+                                                            <li class="list-group-item text-right">
+                                                                <span class="pull-left"><strong class="">Account Type: </strong></span> Student
+
+                                                            </li>
+
+                                                        </ul>
+
+
+
+                                                        <br>
+
+                                                        <!-- /input-group -->
+                                                    </div>
+                                                    <div class="col-sm-5">
+
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                    <hr style="margin:5px 0 5px 0;">
+
+
+                                                    <div class="col-sm-5 col-xs-6 tital ">About Me:</div>
+                                                    <div class="clearfix"></div>
+                                                    <div class="bot-border"></div>
+                                                    <div class="col-sm-5 col-xs-6 tital ">
+                                                        <textarea id="publicinfo" name="publicinfo" cols="40" rows="4" class="form-control"></textarea>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                    <div class="bot-border"></div>
+
+
+
+
+                                                    <!-- /.box-body -->
+                                                </div>
+                                                <!-- /.box -->
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <script>
+                                    $(function () {
+                                        $('#profile-image1').on('click', function () {
+                                            $('#profile-image-upload').click();
+                                        });
+                                    });
+                                </script>
+
+
+
+
+
+
+
+
+
+                            </div>
+                        </div>
+
+
+
+
+
+</body>
+        </html >
